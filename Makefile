@@ -1,7 +1,8 @@
 CFLAGS	= -Wall -Wextra
+LDFLAGS	= -lev
 
 all:	main.o
-	$(CC) $^ -o epollet
+	$(CC) $^ -o epollet $(LDFLAGS)
 
 clean:
 	rm -f main.o epollet
