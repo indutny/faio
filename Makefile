@@ -1,4 +1,4 @@
-CFLAGS	= -Wall -Wextra -g
+CFLAGS	= -Wall -Wextra -g -O2
 LDFLAGS	= -lev
 
 all:	main.o
